@@ -18,9 +18,9 @@ const Example = () => {
       dispatch({ type: "changed", task: task });
     };
   
-    const handleDeleteTask = (taskId) => {
-      dispatch({ type: "deleted", id: taskId });
-    };
+    // const handleDeleteTask = (taskId) => {
+    //   dispatch({ type: "deleted", id: taskId });
+    // };
   
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
